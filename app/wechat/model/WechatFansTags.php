@@ -3,7 +3,7 @@
 // +----------------------------------------------------------------------
 // | Wechat Plugin for ThinkAdmin
 // +----------------------------------------------------------------------
-// | 版权所有 2014~2024 Anyon <zoujingli@qq.com>
+// | 版权所有 2014~2025 Anyon <zoujingli@qq.com>
 // +----------------------------------------------------------------------
 // | 官方网站: https://thinkadmin.top
 // +----------------------------------------------------------------------
@@ -22,6 +22,12 @@ use think\admin\Model;
 
 /**
  * 微信粉丝标签模型
+ *
+ * @property int $count 粉丝总数
+ * @property int $id
+ * @property string $appid 公众号APPID
+ * @property string $create_at 创建日期
+ * @property string $name 标签名称
  * @class WechatFansTags
  * @package app\wechat\model
  */
